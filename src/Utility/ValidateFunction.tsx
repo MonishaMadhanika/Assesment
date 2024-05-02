@@ -30,8 +30,8 @@ export const onValidateElements =(...theParams: any)=>{
         showNotification(ERROR_MESSAGE.MOBILE_ERROR, TOAST_MESSAGE_VALUE.ERROR);
         return false;
     }
-    debugger
-    if (theParams[2].length > 10 && theParams[2]!==undefined) {
+
+    if (theParams[2]!==undefined && theParams[2].length > 10) {
         showNotification(ERROR_MESSAGE.MIN_MOBILE_ERROR, TOAST_MESSAGE_VALUE.ERROR);
         return false;
     }
