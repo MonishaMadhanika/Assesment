@@ -1,4 +1,4 @@
-Table of Content:
+**Table of Content:**
 1. User Authorization using Firebase console
 2. Crud Operation using the Sample JSON Data using Redux toolkit
 3. Sorting and Filtering rule in the App
@@ -6,7 +6,8 @@ Table of Content:
 5. Standardized the code
 6. Validation of the all field
 
-User Authorization using Firebase console
+**User Authorization using Firebase console**
+
 Step 1: Create the Firebase console project
 Step 2: Get the respective Project details of the code in the firebase and
 configure in the reactjs project
