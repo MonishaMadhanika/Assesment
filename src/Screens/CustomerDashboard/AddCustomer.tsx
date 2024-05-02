@@ -33,7 +33,7 @@ export default function AddCustomer() {
                 customerName: name
             }))
         }
-    }, [existingUser])
+    }, [])
 
 
     //Dispatch Action
